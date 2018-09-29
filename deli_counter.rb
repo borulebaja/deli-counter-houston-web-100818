@@ -25,4 +25,6 @@ def now_serving(katz_deli)
   else 
     katz_deli.shift
     puts "Currently serving" + katz_deli[0] + " . "
+  end
+end
     
