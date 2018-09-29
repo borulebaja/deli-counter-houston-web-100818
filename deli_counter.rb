@@ -6,9 +6,20 @@ def line(katz_deli)
   else 
     "The line is currently:"
     
-  array.each_with_index do |name, index| 
-    message += " #{index.to_i+1}. #{name}"
+  katz_deli.each_with_index do |name, index| 
+    phrase += " #{index + 1}. #{name}"
   end 
-  puts "#{message}"
+  puts phrase
   end 
+end
+
+phrase = "The line is currently: "
+  if katz_deli.length > 0 
+    katz_deli.each_with_index do |name, index|
+      phrase += "#{index + 1}. #{name} "
+    end
+    puts phrase
+  else
+    puts "The line is currently empty."
+  end
 end
