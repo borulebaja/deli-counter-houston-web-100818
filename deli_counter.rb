@@ -8,7 +8,7 @@ def line(katz_deli)
     phrase += " #{index + 1}. #{name}"
   end
   else 
-    puts phrase
+    puts "The line is currently empty"
   end 
 end
 
