@@ -13,5 +13,6 @@ def line(katz_deli)
   end 
 end
 
-def take_a_number(katz_deli, "name")
-  if katz_deli.length == 0
+def take_a_number(katz_deli, name)
+  if katz_deli.push(name)
+    puts 
