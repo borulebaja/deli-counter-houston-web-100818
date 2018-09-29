@@ -9,6 +9,6 @@ def line(katz_deli)
   katz_deli.each_with_index do |value, index| 
     phrase += " #{index.to_i+1}. #{value}"
   end 
-  puts "phrase"
+  puts "#{phrase}"
   end 
 end
