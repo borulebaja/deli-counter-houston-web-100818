@@ -1,14 +1,14 @@
 katz_deli = 
 
-def line(array) 
-  if array.length == 0 
+def line(katz_deli) 
+  if katz_deli.length == 0 
     puts "The line is currently empty."
   else 
-    message = "The line is currently:"
+    phrase = "The line is currently:"
     
   array.each_with_index do |value, index| 
-    message += " #{index.to_i+1}. #{value}"
+    phrase += " #{index.to_i+1}. #{value}"
   end 
-  puts "#{message}"
+  puts "phrase"
   end 
 end
