@@ -1,2 +1,1 @@
-def line(katz_line)
-  
+katz_line = []
