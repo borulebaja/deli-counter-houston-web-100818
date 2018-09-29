@@ -1,1 +1,2 @@
-def line
+def line(katz_line)
+  
