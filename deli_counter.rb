@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli) 
-    phrase = "The line is currently empty"
+    phrase = "The line is currently empty."
   if katz_deli.length == 0 
     puts phrase
   else 
